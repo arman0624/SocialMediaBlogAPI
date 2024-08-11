@@ -12,7 +12,9 @@ import java.util.List;
 import io.javalin.Javalin;
 import io.javalin.http.Context;
 
-
+/**
+ * This class handles incoming HTTP requests and through the account and message service classes, it performs the requested actions if possible.
+ */
 public class SocialMediaController {
     private AccountService accountService;
     private MessageService messageService;
